@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Welcome to Alex's Resting app"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:lineSpacingExtra="8dp"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="@string/first_you_need_to_beat_my_robot_in_tic_tac_toe_a_botton_will_pop_up_when_you_beat_it_for_you_to_continue_feel_free_to_relax_for_as_long_as_you_want_remember_resting_is_important" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_gravity="center">
+
+        <!-- 9 Buttons for TicTacToe cells -->
+        <Button android:id="@+id/button00" style="@style/TicTacToeButton"/>
+        <Button android:id="@+id/button01" style="@style/TicTacToeButton"/>
+        <Button android:id="@+id/button02" style="@style/TicTacToeButton"/>
+        <Button android:id="@+id/button10" style="@style/TicTacToeButton"/>
+        <Button android:id="@+id/button11" style="@style/TicTacToeButton"/>
+        <Button android:id="@+id/button12" style="@style/TicTacToeButton"/>
+        <Button android:id="@+id/button20" style="@style/TicTacToeButton"/>
+        <Button android:id="@+id/button21" style="@style/TicTacToeButton"/>
+        <Button android:id="@+id/button22" style="@style/TicTacToeButton"/>
+    </GridLayout>
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/restart_game"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/seeMemeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cogratulations_come_rest"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_turn"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"/>
+</LinearLayout>

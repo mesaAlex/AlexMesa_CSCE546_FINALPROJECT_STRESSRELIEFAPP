@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">StressRelief_MesaAlex</string>
+    <string name="fetching_fact">Fetching fact...</string>
+    <string name="back_to_game">Back to Game</string>
+    <string name="first_you_need_to_beat_my_robot_in_tic_tac_toe_a_botton_will_pop_up_when_you_beat_it_for_you_to_continue_feel_free_to_relax_for_as_long_as_you_want_remember_resting_is_important">First you need to beat my robot in Tic Tac Toe. A botton will pop up when you beat it for you to continue. Feel free to relax for as long as you want. Remember resting is important.</string>
+    <string name="take_a_little_rest_and_look_at_some_foxes_with_some_random_non_important_but_interesting_facts_to_take_your_mind_off_of_the_stress">Take a little rest and look at some foxes with some random non-important but interesting facts to take your mind off of the stress!</string>
+    <string name="stay_for_as_long_as_you_want_click_on_the_fact_to_change_the_picture_of_the_fox_and_the_fact_itself">Stay for as long as you want. Click on the fact to change the picture of the fox and the fact itself!</string>
+    <string name="how_are_you_feeling">How are you feeling?</string>
+    <string name="add_note">Add Note</string>
+    <string name="back">Back</string>
+    <string name="p_s_remember_nothing_saves_feel_free_to_talk_about_everything_you_want">P.S. Remember nothing saves feel free to talk about everything you want!</string>
+    <string name="title">Title</string>
+    <string name="don_t_forget_to_take_a_break_nreflection_is_the_beginning_of_improvement">Don\'t forget to take a break.\nReflection is the beginning of improvement.</string>
+    <string name="cogratulations_come_rest">🦦 Cogratulations Come Rest 🦦</string>
+    <string name="restart_game">Restart Game</string>
+    <string name="your_turn">Your Turn</string>
+</resources>

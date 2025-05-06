@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/don_t_forget_to_take_a_break_nreflection_is_the_beginning_of_improvement"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:lineSpacingExtra="8dp"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:hint="@string/title" />
+
+    <EditText
+        android:id="@+id/bodyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:gravity="top"
+        android:hint="@string/how_are_you_feeling"
+        android:inputType="textMultiLine"
+        android:lines="5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/addNoteButton"
+            android:layout_width="179dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="@string/add_note" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/back" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/p_s_remember_nothing_saves_feel_free_to_talk_about_everything_you_want" />
+
+
+    <ListView
+        android:id="@+id/notesListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
